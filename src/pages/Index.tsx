@@ -1,16 +1,28 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { sampleBusinessData } from "@/data/businessData";
+import SpaHeader from "@/components/SpaHeader";
+import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
+import ServicesSection from "@/components/ServicesSection";
+import GallerySection from "@/components/GallerySection";
+import ReviewsSection from "@/components/ReviewsSection";
+import ContactSection from "@/components/ContactSection";
+import SpaFooter from "@/components/SpaFooter";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
+  const data = sampleBusinessData;
+
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
+    <div className="min-h-screen bg-background">
+      <SpaHeader data={data} />
+      <HeroSection data={data} />
+      <AboutSection />
+      <ServicesSection />
+      <GallerySection />
+      <ReviewsSection data={data} />
+      <ContactSection data={data} />
+      <SpaFooter data={data} />
     </div>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
