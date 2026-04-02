@@ -47,7 +47,7 @@ const SpaFooter = ({ data }: Props) => {
             <div className="flex gap-3 justify-center md:justify-start">
               <Tooltip>
                 <TooltipTrigger asChild>
-                  <button className="w-10 h-10 rounded-lg bg-gradient-to-br from-pink-500 to-orange-400 flex items-center justify-center text-primary-foreground hover:scale-110 transition-transform">
+                  <button className="w-10 h-10 rounded-lg bg-gradient-to-br from-[hsl(var(--spa-instagram-from))] to-[hsl(var(--spa-instagram-to))] flex items-center justify-center text-primary-foreground hover:scale-110 transition-transform">
                     <Instagram size={18} />
                   </button>
                 </TooltipTrigger>
