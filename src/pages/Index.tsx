@@ -1,4 +1,4 @@
-import { sampleBusinessData } from "@/data/businessData";
+import { clientData } from "@/data/businessData";
 import SpaHeader from "@/components/SpaHeader";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
@@ -9,7 +9,7 @@ import ContactSection from "@/components/ContactSection";
 import SpaFooter from "@/components/SpaFooter";
 
 const Index = () => {
-  const data = sampleBusinessData;
+  const data = clientData;
 
   return (
     <div className="min-h-screen bg-background">
