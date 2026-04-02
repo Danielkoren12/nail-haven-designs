@@ -57,6 +57,7 @@ export default {
           cream: "hsl(var(--spa-cream))",
           brown: "hsl(var(--spa-brown))",
           gold: "hsl(var(--spa-gold))",
+          facebook: "hsl(var(--spa-facebook))",
         },
       },
       borderRadius: {
