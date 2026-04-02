@@ -1,4 +1,4 @@
-import { sampleBusinessData } from "@/data/businessData";
+import { clientData } from "@/data/businessData";
 import SpaHeader from "@/components/SpaHeader";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
