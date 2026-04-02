@@ -9,7 +9,7 @@ import ContactSection from "@/components/ContactSection";
 import SpaFooter from "@/components/SpaFooter";
 
 const Index = () => {
-  const data = sampleBusinessData;
+  const data = clientData;
 
   return (
     <div className="min-h-screen bg-background">

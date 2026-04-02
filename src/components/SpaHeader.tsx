@@ -19,9 +19,9 @@ const SpaHeader = ({ data }: Props) => {
       <div className="container mx-auto flex items-center justify-between py-4 px-4 lg:px-8">
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <div className="w-14 h-14 rounded-full bg-spa-warm flex items-center justify-center">
-            <span className="text-primary-foreground font-heading text-sm font-semibold leading-tight text-center">
-              {data.title.split(" ")[0]}
+          <div className="w-14 h-14 rounded-full bg-spa-warm flex items-center justify-center p-1.5">
+            <span className="text-primary-foreground font-heading text-[0.6rem] font-semibold leading-tight text-center break-words">
+              {data.title}
             </span>
           </div>
         </div>
