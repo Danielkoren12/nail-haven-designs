@@ -58,7 +58,7 @@ const SpaFooter = ({ data }: Props) => {
 
               <Tooltip>
                 <TooltipTrigger asChild>
-                  <button className="w-10 h-10 rounded-lg bg-[hsl(220,60%,50%)] flex items-center justify-center text-primary-foreground hover:scale-110 transition-transform">
+                  <button className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center text-primary-foreground hover:scale-110 transition-transform">
                     <Facebook size={18} />
                   </button>
                 </TooltipTrigger>
