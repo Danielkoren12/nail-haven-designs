@@ -1,24 +1,26 @@
+```json
 {
-  "placeUrl": "https://maps.google.com/?cid=1234567890",
-  "title": "Làmay Nail Spa",
-  "rating": "4.8",
-  "reviewCount": "312",
-  "category": "Nail Salon",
-  "address": "134 N San Fernando Blvd, Burbank, CA 91502",
-  "plusCode": "",
+  "placeUrl": "https://www.google.com/maps/place/SF+Nail+Spa/data=!4m7!3m6!1s0x8085876286d2ffc5:0x43e77834e2f2c813!8m2!3d37.7543495!4d-122.4781045!16s%2Fg%2F11f5h0q2gm!19sChIJxf_ShmKHhYARE8jy4jR450M",
+  "title": "SF Nail Spa",
+  "rating": "4.7",
+  "reviewCount": "95",
+  "category": "Nail salon",
+  "address": "1324 Noriega St, San Francisco, CA 94122, United States",
+  "plusCode": "QG3C+PQ Outer Sunset, San Francisco, CA, USA",
   "website": "",
-  "phoneNumber": "(818) 245-5226",
-  "currentStatus": "Open",
+  "phoneNumber": "+1 415-564-5581",
+  "currentStatus": "Closed · Opens 10 AM",
   "info": "",
-  "imgUrl": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=80",
+  "imgUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwernGmJ27tT9a3T7vcMMBdDgaFQH15rrNlxHiHIchm2Ir79KOvWoqz7FXrFIYsZrg613tKdI6UkFbogazansBpf0HZ_uXGPvpEqELkp-NjhOjSjLHcMkp2pbJ0PATzXBu6pbobol=w408-h544-k-no",
   "isClaimed": "true",
   "openingHours": {
-    "monday": "9:30 AM – 7:00 PM",
-    "tuesday": "9:30 AM – 7:00 PM",
-    "wednesday": "9:30 AM – 7:00 PM",
-    "thursday": "9:30 AM – 7:00 PM",
-    "friday": "9:30 AM – 7:00 PM",
-    "saturday": "9:30 AM – 7:00 PM",
-    "sunday": "10:00 AM – 6:00 PM"
+    "monday": "Closed",
+    "tuesday": "10 AM – 7 PM",
+    "wednesday": "10 AM – 7 PM",
+    "thursday": "10 AM – 7 PM",
+    "friday": "10 AM – 7 PM",
+    "saturday": "10 AM – 7 PM",
+    "sunday": "10 AM – 6 PM"
   }
 }
+```
